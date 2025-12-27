@@ -1,6 +1,5 @@
 ---
 title: "FTC Robotics, Year 1"
-date: 2022-10-01
 description: "What I built in the first year on the team"
 image: "/img/bot-screenshot.jpg"  # Specific to Beautiful Hugo to show a preview image
 ---
