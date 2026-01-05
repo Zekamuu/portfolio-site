@@ -2,4 +2,14 @@ baseURL = 'https://Zekamuu.github.io/'
 languageCode = 'en-us'
 title = "Rohan's Engineering Portfolio"
 theme = "hugo-profile"
+[params]
+	[params.hero]
+	enable = true
+	intro = "Hi, my name is"
+	title = "Rohan Nagashetti"
+	subtitle = "I am an EECS major"
+
+		[params.hero.social]
+		github = "Zekamuu"
+		linkedin = "RohanNagashetti"
 
