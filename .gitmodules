@@ -1,0 +1,8 @@
+[submodule "RohanPortfolio/Zekamuu.github.io"]
+	path = RohanPortfolio/Zekamuu.github.io
+	url = https://github.com/Zekamuu/Zekamuu.github.io.git
+	branch = main
+[submodule "RohanPortfolio/public"]
+	path = RohanPortfolio/public
+	url = https://github.com/Zekamuu/Zekamuu.github.io.git
+	branch = main

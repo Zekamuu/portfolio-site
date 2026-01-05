@@ -1,0 +1,5 @@
+baseURL = 'https://Zekamuu.github.io/'
+languageCode = 'en-us'
+title = "Rohan's Engineering Portfolio"
+theme = "hugo-profile"
+
