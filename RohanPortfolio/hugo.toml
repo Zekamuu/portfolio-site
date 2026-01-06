@@ -48,15 +48,15 @@ theme = "hugo-profile"
   # --- HERO SECTION (Top of page) ---
   [params.hero]
     enable = true
-    intro = "Hi, my name is"
-    title = "Your Name"
-    subtitle = "I am a Full Stack Developer based in San Francisco."
+    intro = "Hi! My name is"
+    title = "Rohan Nagashetti"
+    subtitle = "and this is my Engineering Portfolio"
     image = "/images/hero.jpg"  # Add your photo to static/images/
     
     # Social links in the Hero section
     [[params.hero.social]]
       icon = "fab fa-github"
-      url = "https://github.com/yourusername"
+      url = "https://github.com/Zekamuu"
     [[params.hero.social]]
       icon = "fab fa-linkedin"
       url = "https://linkedin.com/in/yourusername"
@@ -68,7 +68,7 @@ theme = "hugo-profile"
   [params.about]
     enable = true
     title = "About Me"
-    description = "I am a passionate software engineer with experience in building scalable web applications. I love solving complex problems and learning new technologies."
+    description = "I am passionate about a range of technologies from robotics to algorithmic trading"
     
     
 # --- SKILLS SECTION (Icons Grid) ---
