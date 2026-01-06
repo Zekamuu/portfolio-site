@@ -2,14 +2,134 @@ baseURL = 'https://Zekamuu.github.io/'
 languageCode = 'en-us'
 title = "Rohan's Engineering Portfolio"
 theme = "hugo-profile"
+
+# -----------------------------------------------------------------------------
+# MENU CONFIGURATION (Top Navigation)
+# -----------------------------------------------------------------------------
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/#about"
+    weight = 1
+
+  [[menu.main]]
+    name = "Skills"
+    url = "/#skills"
+    weight = 2
+
+  [[menu.main]]
+    name = "Experience"
+    url = "/#experience"
+    weight = 3
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/#projects"
+    weight = 4
+
+  [[menu.main]]
+    name = "Education"
+    url = "/#education"
+    weight = 5
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/#contact"
+    weight = 6
+
+# -----------------------------------------------------------------------------
+# PARAMETERS (Content Sections)
+# -----------------------------------------------------------------------------
 [params]
-	[params.hero]
-	enable = true
-	intro = "Hi, my name is"
-	title = "Rohan Nagashetti"
-	subtitle = "I am an EECS major"
+  # Theme color: "default", "blue", "green", "purple", "red"
+  themeStyle = "default" 
+  favicon = "/images/favicon.ico"
 
-		[params.hero.social]
-		github = "Zekamuu"
-		linkedin = "RohanNagashetti"
+  # --- HERO SECTION (Top of page) ---
+  [params.hero]
+    enable = true
+    intro = "Hi, my name is"
+    title = "Your Name"
+    subtitle = "I am a Full Stack Developer based in San Francisco."
+    image = "/images/hero.jpg"  # Add your photo to static/images/
+    
+    # Social links in the Hero section
+    [[params.hero.social]]
+      icon = "fab fa-github"
+      url = "https://github.com/yourusername"
+    [[params.hero.social]]
+      icon = "fab fa-linkedin"
+      url = "https://linkedin.com/in/yourusername"
+    [[params.hero.social]]
+      icon = "fab fa-twitter"
+      url = "https://twitter.com/yourusername"
 
+# --- ABOUT SECTION (CORRECTED) ---
+  [params.about]
+    enable = true
+    title = "About Me"
+    description = "I am a passionate software engineer with experience in building scalable web applications. I love solving complex problems and learning new technologies."
+    
+    
+# --- SKILLS SECTION (Icons Grid) ---
+  [params.skills]
+    enable = true
+    title = "My Skills"
+    # List specific tech stacks here
+    [[params.skills.items]]
+      name = "React"
+      icon = "fab fa-react" # Use FontAwesome classes
+    [[params.skills.items]]
+      name = "Docker"
+      icon = "fab fa-docker"
+    [[params.skills.items]]
+      name = "AWS"
+      icon = "fab fa-aws"
+    [[params.skills.items]]
+      name = "Node.js"
+      icon = "fab fa-node"
+
+  # --- EXPERIENCE SECTION ---
+  [params.experience]
+    enable = true
+    title = "Experience"
+    
+    [[params.experience.items]]
+      title = "Senior Software Engineer"
+      company = "Google"
+      dates = "2022 - Present"
+      description = "Led a team of 5 engineers to rebuild the core payment infrastructure."
+      
+    [[params.experience.items]]
+      title = "Frontend Developer"
+      company = "Startup Inc."
+      dates = "2020 - 2022"
+      description = "Developed the main customer dashboard using React and Redux."
+
+  # --- EDUCATION SECTION ---
+  [params.education]
+    enable = true
+    title = "Education"
+    
+    [[params.education.items]]
+      title = "BS in Computer Science"
+      institution = "University of Technology"
+      dates = "2016 - 2020"
+      description = "Graduated with Honors. Focused on Distributed Systems."
+
+  # --- PROJECTS SECTION ---
+  [params.projects]
+    enable = true
+    title = "Projects"
+    subtitle = "Here are some of my recent works"
+    numberOfProjectsToShow = 6 
+    # Note: The actual project cards are pulled from your "content/projects/*.md" files.
+
+  # --- CONTACT SECTION ---
+  [params.contact]
+    enable = true
+    title = "Get in Touch"
+    subtitle = "Have a question or want to work together?"
+    email = "youremail@example.com"
+    # Optional: Formspree ID for working contact form
+    formspreeId = "your-formspree-id"
