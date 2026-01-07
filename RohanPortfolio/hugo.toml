@@ -51,7 +51,7 @@ theme = "hugo-profile"
     intro = "Hi! My name is"
     title = "Rohan Nagashetti"
     subtitle = "and this is my Engineering Portfolio"
-    image = "/images/hero.jpg"  # Add your photo to static/images/
+    image = "/images/hero.jpeg"  # Add your photo to static/images/
     
     # Social links in the Hero section
     [[params.hero.social]]
