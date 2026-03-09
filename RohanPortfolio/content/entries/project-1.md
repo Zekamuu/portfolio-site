@@ -1,7 +1,8 @@
 +++
 date = '2026-02-26T22:15:47-08:00'
-draft = true
+draft = false
 title = 'Project 1'
+tags = ["IoT", "ESP32", "Arduino Cloud", "Weather Station"]
 
 
 
