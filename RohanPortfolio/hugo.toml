@@ -45,6 +45,15 @@ theme = "hugo-profile"
   themeStyle = "default" 
   favicon = "/images/favicon.ico"
 
+  # Navbar configuration
+  [params.navbar]
+    [params.navbar.menus]
+      disableAbout = true
+      disableExperience = true
+      disableEducation = true
+      disableProjects = true
+      disableContact = true
+
   # --- HERO SECTION (Top of page) ---
   [params.hero]
     enable = true
