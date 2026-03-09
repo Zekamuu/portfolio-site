@@ -54,40 +54,35 @@ theme = "hugo-profile"
     image = "/images/hero.jpeg"  # Add your photo to static/images/
     
     # Social links in the Hero section
-    [[params.hero.social]]
-      icon = "fab fa-github"
-      url = "https://github.com/Zekamuu"
-    [[params.hero.social]]
-      icon = "fab fa-linkedin"
-      url = "https://linkedin.com/in/yourusername"
-    [[params.hero.social]]
-      icon = "fab fa-twitter"
-      url = "https://twitter.com/yourusername"
+    [params.hero.socialLinks]
+      [[params.hero.socialLinks.fontAwesomeIcons]]
+        icon = "fab fa-github"
+        url = "https://github.com/Zekamuu"
+      [[params.hero.socialLinks.fontAwesomeIcons]]
+        icon = "fab fa-linkedin"
+        url = "https://linkedin.com/in/yourusername"
+      [[params.hero.socialLinks.fontAwesomeIcons]]
+        icon = "fab fa-twitter"
+        url = "https://twitter.com/yourusername"
 
 # --- ABOUT SECTION (CORRECTED) ---
   [params.about]
     enable = true
     title = "About Me"
-    description = "I am passionate about a range of technologies from robotics to algorithmic trading"
+    content = """
+I am a highly curious engineering student with interests in robotics, IoT systems, algorithmic trading, machine learning, quantum computing and much more. My journey in technology began in robotics with a fascination for how hardware and software can work together to tackle real-world problems.
+
+Currently pursuing my degree in Computer Engineering, I have gained hands-on experience through various projects involving embedded systems, cloud computing, and data analysis.
+
+When I'm not coding or tinkering with electronics, you can find me watching YouTube videos about emerging technologies, burying myself in tech books to teach myself new concepts (such as hugo for this website!), or connecting with others over fascinating engineering topics.
+"""
+    [params.about.skills]
+      enable = true
+      title = "Here are a few technologies I've been working with recently:"
+      items = ["Python", "Java", "ESP32", "Arduino", "C++", "JavaScript", "Hugo", "Git", "Google Earth Engine", "PineScript"]
     
     
-# --- SKILLS SECTION (Icons Grid) ---
-  [params.skills]
-    enable = true
-    title = "My Skills"
-    # List specific tech stacks here
-    [[params.skills.items]]
-      name = "React"
-      icon = "fab fa-react" # Use FontAwesome classes
-    [[params.skills.items]]
-      name = "Docker"
-      icon = "fab fa-docker"
-    [[params.skills.items]]
-      name = "AWS"
-      icon = "fab fa-aws"
-    [[params.skills.items]]
-      name = "Node.js"
-      icon = "fab fa-node"
+
 
   # --- EXPERIENCE SECTION ---
   [params.experience]
@@ -95,16 +90,25 @@ theme = "hugo-profile"
     title = "Experience"
     
     [[params.experience.items]]
-      title = "Senior Software Engineer"
-      company = "Google"
-      dates = "2022 - Present"
-      description = "Led a team of 5 engineers to rebuild the core payment infrastructure."
+      company = "Personal Projects"
+      [[params.experience.items.jobs]]
+        name = "IoT Project Developer"
+        date = "2023 - Present"
+        content = "Developed multiple IoT projects including weather stations and smart home devices using ESP32 microcontrollers, Arduino Cloud, and various sensors. Implemented real-time data monitoring and cloud connectivity."
       
     [[params.experience.items]]
-      title = "Frontend Developer"
-      company = "Startup Inc."
-      dates = "2020 - 2022"
-      description = "Developed the main customer dashboard using React and Redux."
+      company = "Tech Startup"
+      [[params.experience.items.jobs]]
+        name = "Software Engineering Intern"
+        date = "Summer 2024"
+        content = "Worked on full-stack web development using React, Node.js, and MongoDB. Contributed to the development of a customer management system and improved application performance by 30%."
+      
+    [[params.experience.items]]
+      company = "Robotics Team Captain"
+      [[params.experience.items.jobs]]
+        name = "Robotics Team Member"
+        date = "2022 - 2024"
+        content = "Collaborated on autonomous robot development using ROS, Python, and C++. Participated in national robotics competitions and mentored junior members."
 
   # --- EDUCATION SECTION ---
   [params.education]
@@ -112,10 +116,29 @@ theme = "hugo-profile"
     title = "Education"
     
     [[params.education.items]]
-      title = "BS in Computer Science"
-      institution = "University of Technology"
-      dates = "2016 - 2020"
-      description = "Graduated with Honors. Focused on Distributed Systems."
+      title = "Bachelor of Science in Engineering"
+      [params.education.items.school]
+        name = "Your University Name"
+        url = "https://example.com"
+      date = "2021 - 2025"
+      GPA = "3.8/4.0"
+      content = "Specializing in Electrical and Computer Engineering. Relevant coursework includes Embedded Systems, Data Structures, Algorithms, and Machine Learning."
+      [params.education.items.featuredLink]
+        enable = true
+        name = "View Detailed Coursework"
+        url = "/education-details/"
+      
+    [[params.education.items]]
+      title = "High School"
+      [params.education.items.school]
+        name = "Redwood High School"
+        url = "https://redwood.tamdistrict.org/"
+      date = "2022 - 2026"
+      GPA = "4.5/4.0"
+      [params.education.items.featuredLink]
+        enable = true
+        name = "View Detailed Coursework"
+        url = "/highschool-details/"
 
   # --- PROJECTS SECTION ---
   [params.projects]
