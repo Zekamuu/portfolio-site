@@ -69,7 +69,7 @@ theme = "hugo-profile"
         url = "https://github.com/Zekamuu"
       [[params.hero.socialLinks.fontAwesomeIcons]]
         icon = "fab fa-linkedin"
-        url = "https://linkedin.com/in/yourusername"
+        url = "https://www.linkedin.com/in/rohan-nagashetti-632b16324/"
       [[params.hero.socialLinks.fontAwesomeIcons]]
         icon = "fab fa-twitter"
         url = "https://twitter.com/yourusername"
@@ -79,16 +79,16 @@ theme = "hugo-profile"
     enable = true
     title = "About Me"
     content = """
-I am a highly curious engineering student with interests in robotics, IoT systems, algorithmic trading, machine learning, quantum computing and much more. My journey in technology began in robotics with a fascination for how hardware and software can work together to tackle real-world problems.
+I am a highly curious engineering student with interests in robotics, IoT systems, algorithmic trading, machine learning, quantum computing and much more. My journey in technology began in FIRST Robotics  with a fascination for how hardware and software can work together to tackle real-world challenges.
 
-Currently pursuing my degree in Computer Engineering, I have gained hands-on experience through various projects involving embedded systems, cloud computing, and data analysis.
+Currently pursuing my degree in Electrical and Computer Engineering, I have gained hands-on experience through various projects involving embedded systems, cloud computing, and data analysis.
 
 When I'm not coding or tinkering with electronics, you can find me watching YouTube videos about emerging technologies, burying myself in tech books to teach myself new concepts (such as hugo for this website!), or connecting with others over fascinating engineering topics.
 """
     [params.about.skills]
       enable = true
       title = "Here are a few technologies I've been working with recently:"
-      items = ["Python", "Java", "ESP32", "Arduino", "C++", "JavaScript", "Hugo", "Git", "Google Earth Engine", "PineScript"]
+      items = ["Python", "Java", "ESP32", "Arduino", "C++", "JavaScript", "Hugo", "Git", "Google Earth Engine", "PineScript", "PyTorch", "RoadRunner", "Pedro Pathing", "OnBotJava"]
     
     
 
@@ -97,27 +97,40 @@ When I'm not coding or tinkering with electronics, you can find me watching YouT
   [params.experience]
     enable = true
     title = "Experience"
+
+    [[params.experience.items]]
+      company = "FTC Robotics: Maringineers 21366"
+      [[params.experience.items.jobs]]
+        name = "Robotics Team Captain"
+        date = "2023 - 2026"
+        content = """
+Captain (elected) of 15+ members team (doubled membership)\n
+Worked on both mechanical and software modules\n
+Introduced Pedro Pathing software\n
+Lead by example and fostering teamwork\n
+Built culture of collaboration, resilience, and mutual inspiration\n
+Won 2 Innovate Awards & Design Award runner-up\n
+Ranked #3 in the competitive Bay Area tournament\n
+"""
     
     [[params.experience.items]]
-      company = "Personal Projects"
+      company = "Saroja Sustainable Solutions"
       [[params.experience.items.jobs]]
-        name = "IoT Project Developer"
-        date = "2023 - Present"
-        content = "Developed multiple IoT projects including weather stations and smart home devices using ESP32 microcontrollers, Arduino Cloud, and various sensors. Implemented real-time data monitoring and cloud connectivity."
+        name = "R&D Intern"
+        date = "2024 - 2026"
+        content = """
+-Developed GIS projects\n
+-Mapped stubble fire using S-NPP satellite data\n
+-Mapped pollution data using Copernicus satellite data\n
+-Time series and spatial analysis(kriging)\n
+-Collaborated across time-zones\n
+-Learned open-source principles\n
+-Helped identify pollution sources and patterns\n
+-Developed open-source repository for digital public goods"""
       
-    [[params.experience.items]]
-      company = "Tech Startup"
-      [[params.experience.items.jobs]]
-        name = "Software Engineering Intern"
-        date = "Summer 2024"
-        content = "Worked on full-stack web development using React, Node.js, and MongoDB. Contributed to the development of a customer management system and improved application performance by 30%."
+
       
-    [[params.experience.items]]
-      company = "Robotics Team Captain"
-      [[params.experience.items.jobs]]
-        name = "Robotics Team Member"
-        date = "2022 - 2024"
-        content = "Collaborated on autonomous robot development using ROS, Python, and C++. Participated in national robotics competitions and mentored junior members."
+    
 
   # --- EDUCATION SECTION ---
   [params.education]
