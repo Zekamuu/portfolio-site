@@ -32,16 +32,19 @@ tags: []
 
 ### English
 - **Honors Advanced Exposition**: In progress - Advanced writing and rhetoric course focusing on expository and argumentative writing.
+- **AP Seminar and Research**: Conducted deep analysis of a variety of topics, leading to thesis papers and research projects. 
 
 ### Other
 - **Intro to Engineering Design 1-2**: Introduction to engineering principles, design processes, and CAD software.
 - **AP Seminar**: Interdisciplinary course developing research, analysis, and presentation skills. Scored a 4 on the AP exam.
-- **AP Research**: In progress - Independent research project culminating in a scholarly paper and presentation.
+- **AP Research**: In progress - Independent research project culminating in a scholarly paper and presentation. For AP Research, used geospatial analysis to determine correlation between quarterly gas prices and emission data in the Bay Area. Used Google Earth Engine, Pearson correlational formula, and documentation.
 - **AP Macro/Micro Economics**: In progress - Study of macroeconomic and microeconomic principles, including fiscal and monetary policy.
 
 ## Honors and Achievements
 - **Redwood Honors Society**: Member of the school's honors society, recognizing academic excellence and leadership.
 - **California Scholarship Federation**: Active member of the statewide organization honoring academic achievement and community service.
 
-## Extracurricular Involvement
-Beyond academics, I was actively involved in STEM clubs, robotics competitions, and leadership roles that complemented my coursework and developed practical skills in engineering and programming.
+## Courses at College of Marin
+- **Multivariable Calculus**: Studied vector operations, optimization (lagrange multipliers), vector fields, and Green's, Stoke's, and Divergence theorems. 100% on final exam, ended with 100.17%
+
+- **Intro to Business** Studied a broad range of economic and business fundamentals, such as personal finance, business operations, and market models. Ended with a case study of businesses, presenting the findings.

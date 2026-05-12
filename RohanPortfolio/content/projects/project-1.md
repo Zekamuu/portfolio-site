@@ -18,4 +18,6 @@ This was my first experience planning out the resrouces I would need, ordering p
 The main takeaway from this project was how to troublshoot physical projects. Before, debugging purely software code involved a simple process of using an IDE software to run a debugger, and search line by line until the problem was found and resolved. The change here was that when a problem occured, I didn't know when it was a physical issue or software issue, which meant that I had to test an incredibly larger set of scenarios to fix problems, even though things were very simple. 
 I gained experience in figuring out data flow through the chip and reading pinout diagrams, as well as writing a new type of software (code for hardware) and wiring.
 
+{{< video src="/videos/project-1-video.mp4" >}}
+
 
